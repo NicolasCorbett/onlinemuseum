@@ -21,12 +21,12 @@ const Calligraph = () => {
                             <h2>Fonts in use:(approximate)</h2>
                             <div className="FontDropdown">
                                 <ul>
-                                    <li><span className="titlespan">Bebas Neu heavy capital sans-serif</span><br />
+                                    <li><span className="titlespan">Arial variable weight sans-serif</span><br />
                                         This Fat-faced sans-serif, marks the page in big blocks, crammed into the little
                                         spaces the page corners have to offer.</li>
-                                    <li><span className="titlespan">Rigatoni slab-serif</span><br />
+                                    <li><span className="titlespan"></span><br />
                                         All other titles, big and small, are set in this high-contrast condensed slab-serif.</li>
-                                    <li><span className="titlespan">FreighText Book serif</span><br />
+                                    <li><span className="titlespan">FreighText Medium serif</span><br />
                                         Body text set in a rich contrasted and quite heavy serif.</li>
                                 </ul>
                             </div>
@@ -35,16 +35,14 @@ const Calligraph = () => {
                             <h2>Compositional properties:</h2>
                             <div className="FontDropdown">
                                 <ul>
-                                    <li><span className="titlespan">Duotone</span><br />
+                                    <li><span className="titlespan">centered main title.</span><br />
 
                                     </li>
-                                    <li><span className="titlespan">3-column structure</span><br />
+                                    <li><span className="titlespan">Fully justified introduction with wide letterspacing
+                                        thin sans-serif with black weights for highlighting. Squeezed in between title lines.</span><br />
 
                                     </li>
-                                    <li><span className="titlespan">3rd column with no margin on the visual carrier-plane</span><br />
-
-                                    </li>
-                                    <li><span className="titlespan">Image masking</span><br />
+                                    <li><span className="titlespan">serif body-text and sans-serif questions.</span><br />
 
                                     </li>
                                 </ul>

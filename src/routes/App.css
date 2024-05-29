@@ -87,7 +87,7 @@ font-style: normal;
 }
 
 .dropdown:hover{
-  height: 380px;
+  height: 450px;
   transition: 0.1s ease;
 }
 
@@ -273,6 +273,10 @@ a:hover{
 }
 #bos{
   width: 1100px;
+}
+
+#bosdrop{
+  margin-bottom: 60px;
 }
 
 #eight{

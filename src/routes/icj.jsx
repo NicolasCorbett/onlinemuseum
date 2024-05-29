@@ -8,7 +8,7 @@ const Icj = () => {
         <div>
             <Nav />
             <div className="wrapper" style={{ marginBottom: '30px' }}>
-                <img src={icj} style={{ width: '73vw' }} alt="" />
+                <img src={icj} style={{ width: '60vw', marginTop: '-120px' }} alt="" />
                 <div className="textwrap" style={{ marginLeft: '50px' }}>
                     <h1 className='imbue-title-small' >PLAYBOY December 94'</h1>
                     <p> This interseting 2-color spread is a once quite erotic and now transformed "body & soul"-column.
@@ -21,12 +21,12 @@ const Icj = () => {
                             <h2>Fonts in use:(approximate)</h2>
                             <div className="FontDropdown">
                                 <ul>
-                                    <li><span className="titlespan">Bebas Neu heavy capital sans-serif</span><br />
+                                    <li><span className="titlespan">Impact heavy sans-serif</span><br />
                                         This Fat-faced sans-serif, marks the page in big blocks, crammed into the little
                                         spaces the page corners have to offer.</li>
-                                    <li><span className="titlespan">Rigatoni slab-serif</span><br />
+                                    <li><span className="titlespan">Forma DJR Thin sans serif</span><br />
                                         All other titles, big and small, are set in this high-contrast condensed slab-serif.</li>
-                                    <li><span className="titlespan">FreighText Book serif</span><br />
+                                    <li><span className="titlespan">Freight Text Compressed serif</span><br />
                                         Body text set in a rich contrasted and quite heavy serif.</li>
                                 </ul>
                             </div>
@@ -35,16 +35,14 @@ const Icj = () => {
                             <h2>Compositional properties:</h2>
                             <div className="FontDropdown">
                                 <ul>
-                                    <li><span className="titlespan">Duotone</span><br />
+                                    <li><span className="titlespan">Black & red</span><br />
 
                                     </li>
-                                    <li><span className="titlespan">3-column structure</span><br />
+                                    <li><span className="titlespan">remarkable, 1 left outlined larger text column
+                                        strangely short lines.</span><br />
 
                                     </li>
-                                    <li><span className="titlespan">3rd column with no margin on the visual carrier-plane</span><br />
-
-                                    </li>
-                                    <li><span className="titlespan">Image masking</span><br />
+                                    <li><span className="titlespan">monotone black image</span><br />
 
                                     </li>
                                 </ul>
