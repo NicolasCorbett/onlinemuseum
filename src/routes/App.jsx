@@ -4,6 +4,9 @@ import cultuur from '../assets/CultuurFAXIMIL.png';
 import jan from '../assets/JanFAXIMIL.png';
 import drugs from '../assets/WaronDrugsFAXIMIL.png';
 import night from '../assets/NighlifeFAXIMIL.png';
+import calli from '../assets/calliFAXIMIL.png';
+import icj from '../assets/icjFAXIMIL.png';
+import bos from '../assets/bosFAXIMIL.png';
 
 function App() {
   return (
@@ -75,6 +78,36 @@ function App() {
             </a>
           </div>
           <img id='jan' className='hazes' src={jan}></img></a>
+      </div>
+
+      <div id='six' class="picnlink">
+        <a href="/calligraphy" className="kak">
+          <div className="test">
+            <a className="doclink" href="/calligraphy">
+              "Margaret Shepherd won't let calligraphy die." <br /> "Margaret Shepherd won't let calligraphy die."<br />  "Margaret Shepherd won't let calligraphy die." <br /> "Margaret Shepherd won't let calligraphy die."
+            </a>
+          </div>
+          <img id='calli' className='hazes' src={calli}></img></a>
+      </div>
+
+      <div id='seven' class="picnlink">
+        <a href="/icj" className="kak">
+          <div className="test">
+            <a className="doclink" href="/icj">
+              "Netanyahu found guilty" "Netanyahu found guilty" "Netanyahu found guilty" "Netanyahu found guilty" "Netanyahu found guilty" "Netanyahu found guilty" "Netanyahu found guilty" "Netanyahu found guilty"
+            </a>
+          </div>
+          <img id='icj' className='hazes' src={icj}></img></a>
+      </div>
+
+      <div id='eight' class="picnlink">
+        <a href="/bos" className="kak">
+          <div className="test">
+            <a className="doclink" href="/bos">
+              "BOSLABS"<br /> "BOSLABS" <br />"BOSLABS" <br />"BOSLABS"<br /> "BOSLABS"<br /> "BOSLABS"<br /> "BOSLABS" <br />"BOSLABS"<br /> "BOSLABS"<br /> "BOSLABS"
+            </a>
+          </div>
+          <img id='bos' className='hazes' src={bos}></img></a>
       </div>
 
 

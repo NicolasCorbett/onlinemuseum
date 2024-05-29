@@ -250,6 +250,38 @@ a:hover{
   z-index: 1;
 }
 
+#calli{
+  width: 750px;
+}
+
+#six{
+  position: absolute;
+  top: 380%;
+  left: 0%;
+  z-index: 1;
+}
+
+#icj{
+  width: 500px;
+}
+
+#seven{
+  position: absolute;
+  top: 320%;
+  left: 60%;
+  z-index: 1;
+}
+#bos{
+  width: 1100px;
+}
+
+#eight{
+  position: absolute;
+  top: 440%;
+  left: 17%;
+  z-index: 3;
+}
+
 .archive{
   display: flex;
   flex-direction: row;
@@ -323,6 +355,24 @@ cursor: pointer;
 }
 
 .test:hover + #hazes{
+  opacity: 0;
+  transition: 1s ease;
+  cursor: pointer;
+}
+
+.test:hover + #calli{
+  opacity: 0;
+  transition: 1s ease;
+  cursor: pointer;
+}
+
+.test:hover + #icj{
+  opacity: 0;
+  transition: 1s ease;
+  cursor: pointer;
+}
+
+.test:hover + #bos{
   opacity: 0;
   transition: 1s ease;
   cursor: pointer;

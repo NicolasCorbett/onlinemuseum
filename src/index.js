@@ -10,6 +10,9 @@ import Jan from './routes/Jan';
 import Drugs from './routes/Drugs';
 import Night from './routes/Night';
 import Original from './routes/Original';
+import Calligraph from './routes/Calligraph';
+import Icj from './routes/icj';
+import Bos from './routes/Bos';
 
 const router = createBrowserRouter([
   {path: '/', 
@@ -36,6 +39,15 @@ const router = createBrowserRouter([
   },{
     path: '/original',
    element: <Original/>
+  },{
+    path: '/calligraphy',
+   element: <Calligraph/>
+  },{
+    path: '/icj',
+   element: <Icj/>
+  },{
+    path: '/bos',
+   element: <Bos/>
   }
 ])
 
