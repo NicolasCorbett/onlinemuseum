@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Imbue:opsz,wght@10..100,100..900&family=UnifrakturMaguntia&display=swap');
+@import url("https://use.typekit.net/peq6whz.css");
+
+
+*{
+  color: white;
+  
+}
+
+body{
+  overflow-x: hidden;
+  overflow-y: scroll;
+  background-color: black;
+}
+
+.imbue-title {
+  font-family: "Imbue", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 100pt;
+  
+}
+
+.imbue-title-small {
+  font-family: "Imbue", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30pt;
+  margin-top: 40px;
+}
+
+.context-container{
+  width: 1000px;
+  text-align: justify;
+  margin-top: 60px;
+  margin-left: 50px;
+}
+
+.textt{
+  width: 450px;
+}
+
+.nav-container{
+  display: flex;
+  width: 100vw;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 20px;
+  z-index: 1;
+  mix-blend-mode: exclusion;
+}
+
+.nav-container>a{
+}
+
+#middleLink{
+  margin-left: 80px;
+}
+
+h1{
+margin: 0;
+}
+
+h2{
+  text-decoration: underline;
+  font-size: 22pt;
+  font-family: "Imbue", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p{
+  font-size: 12pt;
+  font-family: freight-text-pro, serif;
+font-weight: 500;
+font-style: normal;
+}
+
+.dropdown{
+  position: relative;
+  height: 30px;
+  transition: 0.5s ease;
+}
+
+.dropdown:hover{
+  height: 380px;
+  transition: 0.1s ease;
+}
+
+.dropdown:hover .FontDropdown>ul>li{
+ height: fit-content;
+  color: white;
+  transition: 0.5s ease;
+}
+
+.dropdown:hover .FontDropdown{
+  display: block;
+  opacity: 100%;
+  transition: 0.1s ease;
+}
+
+.FontDropdown{
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+ul{
+  margin-top: -15px;
+}
+
+li{
+  color: black;
+  margin-left: -20px;
+  font-size: 12pt;
+  font-family: freight-text-pro, serif;
+  font-weight: 400;
+  font-style: italic;
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
+
+.titlespan{
+  font-size: 14pt;
+  font-weight: 500;
+  font-style: normal;
+}
+
+a{
+  text-decoration: none;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family: freight-text-pro, serif;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 11pt;
+}
+
+.normalLink{
+  text-decoration: none;
+  font-size: 16pt;
+  display: block;
+  margin-left: 0;
+  margin-top: 5px;
+}
+
+.normalLink:hover{
+  text-decoration: underline;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+#noLink{
+  cursor: default;
+}
+
+#noLink:hover{
+  text-decoration: none;
+}
+
+.firstRow{
+  display: flex;
+  flex-direction: row;
+  width: 95vw;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#andre{
+  background-size: cover;
+ height: 200px;
+}
+
+/*FUNKY STUFF WHEN U TAKE OUT WIDTH FROM HAZES*/
+
+.hazes{
+  /* width: 250px; */
+  margin-left: 60px;
+  margin-top: 60px;
+  transition: 1s ease;
+}
+
+#cultuur{
+  width: 1600px;
+
+}
+
+#one{
+  position: absolute;
+  top: 18%;
+  left: 32%;
+  z-index: 1;
+}
+
+
+#night{
+  width: 900px;
+}
+
+#three{
+  position: absolute;
+  top: 285%;
+  left: -7%;
+  z-index: 1;
+}
+
+
+#jan{
+  width: 1200px;
+
+}
+
+#two{
+  position: absolute;
+  top: 70%;
+  left: -7%;
+  z-index: 1;
+}
+
+#drugs{
+  width: 800px;
+}
+
+#four{
+  position: absolute;
+  top: 200%;
+ right: -10%;
+  z-index: 1;
+}
+
+#hazes{
+  width: 650px;
+}
+
+#five{
+  position: absolute;
+  top: 210%;
+  left: 0%;
+  z-index: 1;
+}
+
+.archive{
+  display: flex;
+  flex-direction: row;
+  width: 95vw;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.archive>:nth-child(4n+5){
+  margin-left: 0px;
+}
+.archive>:first-child{
+  margin-left: 0px;
+}
+
+.doclink{
+ text-align: center;
+ position: absolute;
+ top: 0%;
+ left: 20%;
+ width: 250px;
+ transform: translate(-150px);
+ font-size: 20pt;
+ font-family: "imbue", serif;
+ z-index: 0;
+ opacity: 0;
+ text-decoration: none;
+}
+
+.test{
+  top: 20%;
+  left: 22%;
+  width: 500px;
+  height: 500px;
+  /* background-color: red; */
+  position: absolute;
+  z-index: 10;
+}
+
+.test:hover > .doclink{
+  opacity: 100;
+  transition: 2s ease;
+}
+
+.test:hover + #jan{
+  opacity: 0;
+transition: 1s ease;
+cursor: pointer;
+}
+
+.test:hover + #cultuur{
+opacity: 0;
+transition: 1s ease;
+cursor: pointer;
+}
+
+.test:hover + #night{
+  opacity: 0;
+  transition: 1s ease;
+  cursor: pointer;
+}
+
+.test:hover + #drugs{
+  opacity: 0;
+  transition: 1s ease;
+  cursor: pointer;
+}
+
+.test:hover + #hazes{
+  opacity: 0;
+  transition: 1s ease;
+  cursor: pointer;
+}
+
+.picnlink{
+position: relative;
+}
+
+.wrapper{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.textwrap{
+  width: 300px;
+}
+
+.infowrap{
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.centerwrap{
+  margin-top: 100px;
+  width: 96vw;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.contexttext{
+  width: 50vw;
+}
