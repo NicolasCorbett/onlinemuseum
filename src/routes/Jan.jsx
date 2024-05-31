@@ -2,15 +2,27 @@ import React from 'react'
 import jan from '../assets/JanFAXIMIL.png';
 import Nav from '../components/Nav'
 import '../routes/App.css'
+import { motion } from "framer-motion"
 
 const Jan = () => {
     return (
         <div>
             <Nav />
             <div className="wrapper" style={{ marginBottom: '70px' }}>
-                <img src={jan} style={{ width: '73vw', marginLeft: '0px' }} alt="" />
+                <motion.img src={jan} style={{ width: '73vw', marginLeft: '0px' }} alt=""
+                    initial={{
+                        opacity: 0,
+                        y: 400
+                    }}
+                    whileInView={{
+                        opacity: 1,
+                        y: 0
+                    }}
+                    viewport={{ once: true }}
+                    transition={{ ease: "easeOut", duration: 1 }}
+                />
                 <div className="textwrap" style={{ marginLeft: '-450px', width: '300px' }}>
-                    <h1 className='imbue-title-small' >PLAYBOY December 94'</h1>
+                    <h1 className='imbue-title-small' >NEWLOOK 84'</h1>
                     <p> From a luxury car advert based on a sexist remark to one of the greats of modern typography.
                     </p>
                     <div className="infowrap">

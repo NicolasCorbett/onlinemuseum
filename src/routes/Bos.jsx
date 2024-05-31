@@ -2,15 +2,27 @@ import React from 'react'
 import Nav from '../components/Nav'
 import bos from '../assets/bosFAXIMIL.png'
 import '../routes/App.css'
+import { motion } from "framer-motion"
 
 const Bos = () => {
     return (
         <div>
             <Nav />
             <div className="wrapper" style={{ marginBottom: '30px' }}>
-                <img src={bos} style={{ width: '50vw', marginTop: '-50px' }} alt="" />
+                <motion.img src={bos} style={{ width: '50vw', marginTop: '-50px' }} alt=""
+                    initial={{
+                        opacity: 0,
+                        y: 400
+                    }}
+                    whileInView={{
+                        opacity: 1,
+                        y: 0
+                    }}
+                    viewport={{ once: true }}
+                    transition={{ ease: "easeOut", duration: 1 }}
+                />
                 <div className="textwrap" style={{ marginLeft: '50px' }}>
-                    <h1 className='imbue-title-small' >PLAYBOY December 94'</h1>
+                    <h1 className='imbue-title-small' >PLAYBOY May 78'</h1>
                     <p> This hardcore, slave-sex advert for a club in Charleroi with very graphic, halftone
                         and masked images paired with a multitude of display fonts such as stencil, brush, etc.
                         Now repurposed as an advert for a local place in Antwerp that matters. An initiative by

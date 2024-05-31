@@ -2,13 +2,25 @@ import React from 'react'
 import Nav from '../components/Nav'
 import cultuur from '../assets/CultuurFAXIMIL.png'
 import '../routes/App.css'
+import { motion } from "framer-motion"
 
 const Cultuur = () => {
     return (
         <div>
             <Nav />
             <div className="wrapper" style={{ marginBottom: '30px' }}>
-                <img src={cultuur} style={{ width: '73vw' }} alt="" />
+                <motion.img src={cultuur} style={{ width: '73vw' }} alt=""
+                    initial={{
+                        opacity: 0,
+                        y: 400
+                    }}
+                    whileInView={{
+                        opacity: 1,
+                        y: 0
+                    }}
+                    viewport={{ once: true }}
+                    transition={{ ease: "easeOut", duration: 1 }}
+                />
                 <div className="textwrap" style={{ marginLeft: '50px' }}>
                     <h1 className='imbue-title-small' >PLAYBOY December 94'</h1>
                     <p> This interseting 2-color spread is a once quite erotic and now transformed "body & soul"-column.

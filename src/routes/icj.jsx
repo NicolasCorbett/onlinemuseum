@@ -2,15 +2,27 @@ import React from 'react'
 import Nav from '../components/Nav'
 import icj from '../assets/icjFAXIMIL.png'
 import '../routes/App.css'
+import { motion } from "framer-motion"
 
 const Icj = () => {
     return (
         <div>
             <Nav />
             <div className="wrapper" style={{ marginBottom: '30px' }}>
-                <img src={icj} style={{ width: '60vw', marginTop: '-120px' }} alt="" />
+                <motion.img src={icj} style={{ width: '60vw', marginTop: '-120px' }} alt=""
+                    initial={{
+                        opacity: 0,
+                        y: 400
+                    }}
+                    whileInView={{
+                        opacity: 1,
+                        y: 0
+                    }}
+                    viewport={{ once: true }}
+                    transition={{ ease: "easeOut", duration: 1 }}
+                />
                 <div className="textwrap" style={{ marginLeft: '50px' }}>
-                    <h1 className='imbue-title-small' >PLAYBOY December 94'</h1>
+                    <h1 className='imbue-title-small' >MatchDocument 1984</h1>
                     <p> Originally a quite lack-luster sensational column about Newton Helmut and a scandal
                         affair of his in Berlin. Transformed here to match a real scandal (the warcriminal not the conviction).
                         Matching the shouting lay-out and typography of the original.

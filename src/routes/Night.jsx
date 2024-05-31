@@ -2,13 +2,25 @@ import React from 'react'
 import night from '../assets/NighlifeFAXIMIL.png';
 import Nav from '../components/Nav'
 import '../routes/App.css'
+import { motion } from "framer-motion"
 
 const Night = () => {
     return (
         <div>
             <Nav />
             <div className="wrapper" style={{ marginBottom: '70px' }}>
-                <img src={night} style={{ width: '73vw', height: '110vh' }} alt="" />
+                <motion.img src={night} style={{ width: '73vw', height: '110vh' }} alt=""
+                    initial={{
+                        opacity: 0,
+                        y: 400
+                    }}
+                    whileInView={{
+                        opacity: 1,
+                        y: 0
+                    }}
+                    viewport={{ once: true }}
+                    transition={{ ease: "easeOut", duration: 1 }}
+                />
                 <div className="textwrap" style={{ marginLeft: '50px' }}>
                     <h1 className='imbue-title-small' >Paris Las Vegas International 1980</h1>
                     <p> A surprisingly bright and refreshing feature in the archive. Including a once very popular and

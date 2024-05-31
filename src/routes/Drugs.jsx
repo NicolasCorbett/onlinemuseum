@@ -2,13 +2,25 @@ import React from 'react'
 import drugs from '../assets/WaronDrugsFAXIMIL.png';
 import Nav from '../components/Nav'
 import '../routes/App.css'
+import { motion } from "framer-motion"
 
 const Drugs = () => {
     return (
         <div>
             <Nav />
             <div className="wrapper" style={{ marginBottom: '70px' }}>
-                <img src={drugs} style={{ width: '75vw', height: '120vh', marginLeft: '-60px', marginTop: '-70px', maxHeight: '130vh' }} alt="" />
+                <motion.img src={drugs} style={{ width: '75vw', height: '120vh', marginLeft: '-60px', marginTop: '-70px', maxHeight: '130vh' }} alt=""
+                    initial={{
+                        opacity: 0,
+                        y: 400
+                    }}
+                    whileInView={{
+                        opacity: 1,
+                        y: 0
+                    }}
+                    viewport={{ once: true }}
+                    transition={{ ease: "easeOut", duration: 1 }}
+                />
                 <div className="textwrap" style={{ marginLeft: '50px' }}>
                     <h1 className='imbue-title-small' >Penthouse Letters 83'</h1>
                     <p> An exempt from once well-established magazine "Penthouse Letters" an explicit magazine most characterized by

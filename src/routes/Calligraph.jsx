@@ -2,15 +2,27 @@ import React from 'react'
 import calli from '../assets/calliFAXIMIL.png'
 import Nav from '../components/Nav'
 import '../routes/App.css'
+import { motion } from "framer-motion"
 
 const Calligraph = () => {
     return (
         <div>
             <Nav />
             <div className="wrapper" style={{ marginBottom: '30px' }}>
-                <img src={calli} style={{ width: '73vw', height: '114vh' }} alt="" />
+                <motion.img src={calli} style={{ width: '73vw', height: '114vh' }} alt=""
+                    initial={{
+                        opacity: 0,
+                        y: 400
+                    }}
+                    whileInView={{
+                        opacity: 1,
+                        y: 0
+                    }}
+                    viewport={{ once: true }}
+                    transition={{ ease: "easeOut", duration: 1 }}
+                />
                 <div className="textwrap" style={{ marginLeft: '50px' }}>
-                    <h1 className='imbue-title-small' >PLAYBOY December 94'</h1>
+                    <h1 className='imbue-title-small' >LOADED Issue N°79</h1>
                     <p> Exempt from an interview with oceansurfer Elgersma Rinse from the show "Kamikaze". The interesting
                         title structure and almost absurd letterspacing in this very blocked publication almost remind in a way
                         of works made by the New Typographers.

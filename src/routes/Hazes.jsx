@@ -2,13 +2,25 @@ import React from 'react'
 import Nav from '../components/Nav'
 import hazes from '../assets/hazesFAXIMIL.png'
 import '../routes/App.css'
+import { motion } from "framer-motion"
 
 const Hazes = () => {
     return (
         <div>
             <Nav />
             <div className="wrapper">
-                <img src={hazes} style={{ width: '75vw' }} alt="" />
+                <motion.img src={hazes} style={{ width: '75vw' }} alt=""
+                    initial={{
+                        opacity: 0,
+                        y: 400
+                    }}
+                    whileInView={{
+                        opacity: 1,
+                        y: 0
+                    }}
+                    viewport={{ once: true }}
+                    transition={{ ease: "easeOut", duration: 1 }}
+                />
                 <div className="textwrap">
                     <h1 className='imbue-title-small' >PLAYBOY December 94'</h1>
                     <p> In this 94' issue of Playboy an interview with dutch singer and star "Andre Hazes" was
