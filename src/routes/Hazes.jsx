@@ -16,7 +16,7 @@ const Hazes = () => {
                     </p>
                     <div className="infowrap">
                         <hr />
-                        <div className="dropdown">
+                        <div id='hazesdrop' className="dropdown">
                             <h2>Fonts in use:(approximate)</h2>
                             <div className="FontDropdown">
                                 <ul>
@@ -29,7 +29,7 @@ const Hazes = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div className="dropdown">
+                        <div id='hazesdrop2' className="dropdown">
                             <h2>Compositional properties:</h2>
                             <div className="FontDropdown">
                                 <ul>

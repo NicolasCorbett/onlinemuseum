@@ -9,13 +9,13 @@ const Jan = () => {
             <Nav />
             <div className="wrapper" style={{ marginBottom: '70px' }}>
                 <img src={jan} style={{ width: '73vw', marginLeft: '0px' }} alt="" />
-                <div className="textwrap" style={{ marginLeft: '-450px', width: '800px' }}>
+                <div className="textwrap" style={{ marginLeft: '-450px', width: '300px' }}>
                     <h1 className='imbue-title-small' >PLAYBOY December 94'</h1>
                     <p> From a luxury car advert based on a sexist remark to one of the greats of modern typography.
                     </p>
                     <div className="infowrap">
                         <hr />
-                        <div className="dropdown">
+                        <div id='jandrop' className="dropdown">
                             <h2>Fonts in use:(approximate)</h2>
                             <div className="FontDropdown">
                                 <ul>
@@ -26,7 +26,7 @@ const Jan = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div className="dropdown">
+                        <div id='jandrop2' className="dropdown">
                             <h2>Compositional properties:</h2>
                             <div className="FontDropdown">
                                 <ul>

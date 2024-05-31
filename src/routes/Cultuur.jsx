@@ -17,7 +17,7 @@ const Cultuur = () => {
                     </p>
                     <div className="infowrap">
                         <hr />
-                        <div className="dropdown">
+                        <div id='cultuurdrop' className="dropdown">
                             <h2>Fonts in use:(approximate)</h2>
                             <div className="FontDropdown">
                                 <ul>
@@ -31,7 +31,7 @@ const Cultuur = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div className="dropdown">
+                        <div id='cultuurdrop2' className="dropdown">
                             <h2>Compositional properties:</h2>
                             <div className="FontDropdown">
                                 <ul>

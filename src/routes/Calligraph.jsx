@@ -8,30 +8,28 @@ const Calligraph = () => {
         <div>
             <Nav />
             <div className="wrapper" style={{ marginBottom: '30px' }}>
-                <img src={calli} style={{ width: '73vw' }} alt="" />
+                <img src={calli} style={{ width: '73vw', height: '114vh' }} alt="" />
                 <div className="textwrap" style={{ marginLeft: '50px' }}>
                     <h1 className='imbue-title-small' >PLAYBOY December 94'</h1>
-                    <p> This interseting 2-color spread is a once quite erotic and now transformed "body & soul"-column.
-                        Seemingly set text with little care for the pre-imposed colorblocks, narrow
-                        three column structure with not an inch of space to spare.
+                    <p> Exempt from an interview with oceansurfer Elgersma Rinse from the show "Kamikaze". The interesting
+                        title structure and almost absurd letterspacing in this very blocked publication almost remind in a way
+                        of works made by the New Typographers.
                     </p>
                     <div className="infowrap">
                         <hr />
-                        <div className="dropdown">
+                        <div id='callidrop' className="dropdown">
                             <h2>Fonts in use:(approximate)</h2>
                             <div className="FontDropdown">
                                 <ul>
                                     <li><span className="titlespan">Arial variable weight sans-serif</span><br />
-                                        This Fat-faced sans-serif, marks the page in big blocks, crammed into the little
-                                        spaces the page corners have to offer.</li>
-                                    <li><span className="titlespan"></span><br />
-                                        All other titles, big and small, are set in this high-contrast condensed slab-serif.</li>
+                                        Forms the centered eye-catch title, shortly describing the subject. Introduction
+                                        in quite large pt. size and bold for emphasis. Usage for interview questions in bold.</li>
                                     <li><span className="titlespan">FreighText Medium serif</span><br />
-                                        Body text set in a rich contrasted and quite heavy serif.</li>
+                                        Body text set in a medium serif.</li>
                                 </ul>
                             </div>
                         </div>
-                        <div className="dropdown">
+                        <div id='callidrop2' className="dropdown">
                             <h2>Compositional properties:</h2>
                             <div className="FontDropdown">
                                 <ul>

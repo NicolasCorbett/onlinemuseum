@@ -25,13 +25,13 @@ function App() {
           a single dot, pixel or stripe of content found in this space is an original. This archive of
           vintage once "faux" magazines have been reduced to their pure design-forms, after which they
           were given a new, contemporary and one might hope relevant interpretation. <br /><br />
-          For more context, please visit the <a href="/context">'context'</a> page. </p>
+          For more context, please visit the <a id='contextref' href="/context">'context'</a> page. </p>
       </div>
 
       <div id='one' class="picnlink">
 
         <a href="/cultuur" className="kak"><div className="test"><a className="doclink" href="/cultuur">
-          "RUIMTE VOOR CULTUUR!"  "RUIMTE VOOR CULTUUR!" "RUIMTE VOOR CULTUUR!" "RUIMTE VOOR CULTUUR!" "RUIMTE VOOR CULTUUR!" "RUIMTE VOOR CULTUUR!" "RUIMTE VOOR CULTUUR!" "RUIMTE VOOR CULTUUR!" "RUIMTE VOOR CULTUUR!"
+          "RUIMTE VOOR CULTUUR!"
         </a></div><img id='cultuur' className='hazes' src={cultuur}></img></a>
 
       </div>
@@ -40,7 +40,7 @@ function App() {
         <a href="/night" className="kak">
           <div className="test">
             <a className="doclink" href="/night">
-              "Protect our nightlife" <br /> "Protect our nightlife" <br />"Protect our nightlife" <br />"Protect our nightlife" <br />"Protect our nightlife" <br />"Protect our nightlife" <br />"Protect our nightlife" <br />"Protect our nightlife" <br />"Protect our nightlife" <br />"Protect our nightlife"
+              "Protecting our nightlife"
             </a>
           </div>
           <img id='night' className='hazes' src={night}></img></a>
@@ -51,7 +51,7 @@ function App() {
         <a href="/drugs" className="kak">
           <div className="test">
             <a className="doclink" href="/drugs">
-              "Decriminalising drugs (POR)" "Decriminalising drugs (POR)" "Decriminalising drugs (POR)" "Decriminalising drugs (POR)" "Decriminalising drugs (POR)" "Decriminalising drugs (POR)" "Decriminalising drugs (POR)" "Decriminalising drugs (POR)" "Decriminalising drugs (POR)"
+              "Decriminalising drugs (POR)"
             </a>
           </div>
           <img id='drugs' className='hazes' src={drugs}></img></a>
@@ -62,7 +62,7 @@ function App() {
         <a href="/Hazes" className="kak">
           <div className="test">
             <a className="doclink" href="/hazes">
-              "Ways to support Palestine" "Ways to support Palestine" "Ways to support Palestine" "Ways to support Palestine" "Ways to support Palestine" "Ways to support Palestine" "Ways to support Palestine" "Ways to support Palestine" "Ways to support Palestine" "Ways to support Palestine"
+              "Ways to support Palestine"
             </a>
           </div>
           <img id='hazes' className='hazes' src={hazes}></img></a>
@@ -74,7 +74,7 @@ function App() {
         <a href="/jan" className="kak">
           <div className="test">
             <a className="doclink" href="/jan">
-              "The only way in typography!" "The only way in typography!" "The only way in typography!" "The only way in typography!" "The only way in typography!" "The only way in typography!" "The only way in typography!"
+              "The only way in typography!"
             </a>
           </div>
           <img id='jan' className='hazes' src={jan}></img></a>
@@ -84,7 +84,7 @@ function App() {
         <a href="/calligraphy" className="kak">
           <div className="test">
             <a className="doclink" href="/calligraphy">
-              "Margaret Shepherd won't let calligraphy die." <br /> "Margaret Shepherd won't let calligraphy die."<br />  "Margaret Shepherd won't let calligraphy die." <br /> "Margaret Shepherd won't let calligraphy die."
+              "Margaret Shepherd won't let calligraphy die."
             </a>
           </div>
           <img id='calli' className='hazes' src={calli}></img></a>
@@ -94,7 +94,7 @@ function App() {
         <a href="/icj" className="kak">
           <div className="test">
             <a className="doclink" href="/icj">
-              "Netanyahu found guilty" "Netanyahu found guilty" "Netanyahu found guilty" "Netanyahu found guilty" "Netanyahu found guilty" "Netanyahu found guilty" "Netanyahu found guilty" "Netanyahu found guilty"
+              "Netanyahu found guilty"
             </a>
           </div>
           <img id='icj' className='hazes' src={icj}></img></a>
@@ -104,7 +104,7 @@ function App() {
         <a href="/bos" className="kak">
           <div className="test">
             <a className="doclink" href="/bos">
-              "BOSLABS"<br /> "BOSLABS" <br />"BOSLABS" <br />"BOSLABS"<br /> "BOSLABS"<br /> "BOSLABS"<br /> "BOSLABS" <br />"BOSLABS"<br /> "BOSLABS"<br /> "BOSLABS"
+              "BOSLABS"
             </a>
           </div>
           <img id='bos' className='hazes' src={bos}></img></a>

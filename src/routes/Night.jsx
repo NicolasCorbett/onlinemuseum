@@ -8,7 +8,7 @@ const Night = () => {
         <div>
             <Nav />
             <div className="wrapper" style={{ marginBottom: '70px' }}>
-                <img src={night} style={{ width: '73vw' }} alt="" />
+                <img src={night} style={{ width: '73vw', height: '110vh' }} alt="" />
                 <div className="textwrap" style={{ marginLeft: '50px' }}>
                     <h1 className='imbue-title-small' >Paris Las Vegas International 1980</h1>
                     <p> A surprisingly bright and refreshing feature in the archive. Including a once very popular and
@@ -17,7 +17,7 @@ const Night = () => {
                     </p>
                     <div className="infowrap">
                         <hr />
-                        <div className="dropdown">
+                        <div id='nightdrop' className="dropdown">
                             <h2>Fonts in use:(approximate)</h2>
                             <div className="FontDropdown">
                                 <ul>
@@ -29,7 +29,7 @@ const Night = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div className="dropdown">
+                        <div id='nightdrop2' className="dropdown">
                             <h2>Compositional properties:</h2>
                             <div className="FontDropdown">
                                 <ul>

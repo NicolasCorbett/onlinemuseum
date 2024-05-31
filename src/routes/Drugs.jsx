@@ -8,7 +8,7 @@ const Drugs = () => {
         <div>
             <Nav />
             <div className="wrapper" style={{ marginBottom: '70px' }}>
-                <img src={drugs} style={{ width: '75vw', marginLeft: '-60px', marginTop: '-70px' }} alt="" />
+                <img src={drugs} style={{ width: '75vw', height: '120vh', marginLeft: '-60px', marginTop: '-70px', maxHeight: '130vh' }} alt="" />
                 <div className="textwrap" style={{ marginLeft: '50px' }}>
                     <h1 className='imbue-title-small' >Penthouse Letters 83'</h1>
                     <p> An exempt from once well-established magazine "Penthouse Letters" an explicit magazine most characterized by
@@ -19,7 +19,7 @@ const Drugs = () => {
                     </p>
                     <div className="infowrap">
                         <hr />
-                        <div className="dropdown">
+                        <div id='drugdrop' className="dropdown">
                             <h2>Fonts in use:(approximate)</h2>
                             <div className="FontDropdown">
                                 <ul>
@@ -35,7 +35,7 @@ const Drugs = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div className="dropdown">
+                        <div id='drugdrop2' className="dropdown">
                             <h2>Compositional properties:</h2>
                             <div className="FontDropdown">
                                 <ul>

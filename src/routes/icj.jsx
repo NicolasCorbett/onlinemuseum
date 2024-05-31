@@ -11,27 +11,28 @@ const Icj = () => {
                 <img src={icj} style={{ width: '60vw', marginTop: '-120px' }} alt="" />
                 <div className="textwrap" style={{ marginLeft: '50px' }}>
                     <h1 className='imbue-title-small' >PLAYBOY December 94'</h1>
-                    <p> This interseting 2-color spread is a once quite erotic and now transformed "body & soul"-column.
-                        Seemingly set text with little care for the pre-imposed colorblocks, narrow
-                        three column structure with not an inch of space to spare.
+                    <p> Originally a quite lack-luster sensational column about Newton Helmut and a scandal
+                        affair of his in Berlin. Transformed here to match a real scandal (the warcriminal not the conviction).
+                        Matching the shouting lay-out and typography of the original.
                     </p>
                     <div className="infowrap">
                         <hr />
-                        <div className="dropdown">
+                        <div id='icjdrop' className="dropdown">
                             <h2>Fonts in use:(approximate)</h2>
                             <div className="FontDropdown">
                                 <ul>
                                     <li><span className="titlespan">Impact heavy sans-serif</span><br />
-                                        This Fat-faced sans-serif, marks the page in big blocks, crammed into the little
-                                        spaces the page corners have to offer.</li>
+                                        Main use for titles in varying densities, also playing with the capital height in some cases.</li>
                                     <li><span className="titlespan">Forma DJR Thin sans serif</span><br />
-                                        All other titles, big and small, are set in this high-contrast condensed slab-serif.</li>
+                                        Creates the loud but somewhat breathing naming of the article subject. Some
+                                        play with the name containing a part of the full name. Also used for the larger left column
+                                        of text containing the introduction.</li>
                                     <li><span className="titlespan">Freight Text Compressed serif</span><br />
-                                        Body text set in a rich contrasted and quite heavy serif.</li>
+                                        Body text set in a quite condensed serif font.</li>
                                 </ul>
                             </div>
                         </div>
-                        <div className="dropdown">
+                        <div id='icjdrop2' className="dropdown">
                             <h2>Compositional properties:</h2>
                             <div className="FontDropdown">
                                 <ul>

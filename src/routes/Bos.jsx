@@ -18,7 +18,7 @@ const Bos = () => {
                     </p>
                     <div className="infowrap">
                         <hr />
-                        <div className="dropdown">
+                        <div id='bosdrop' className="dropdown">
                             <h2>Fonts in use:(approximate)</h2>
                             <div id='bosdrop' className="FontDropdown">
                                 <ul>
@@ -36,7 +36,7 @@ const Bos = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div className="dropdown">
+                        <div id='bosdrop2' className="dropdown">
                             <h2>Compositional properties:</h2>
                             <div className="FontDropdown">
                                 <ul>
