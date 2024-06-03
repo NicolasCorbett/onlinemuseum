@@ -68,7 +68,7 @@ function App() {
               initial={{ opacity: 0, }}
               whileInView={{ opacity: 1, }}
               viewport={{ once: true }}
-              transition={{ delay: 2, ease: "easeOut", duration: 0 }}
+              transition={{ delay: 0, ease: "easeOut", duration: 0 }}
             >
               <a className="doclink" href="/night">
                 "Protecting our nightlife"
@@ -98,7 +98,7 @@ function App() {
               initial={{ opacity: 0, }}
               whileInView={{ opacity: 1, }}
               viewport={{ once: true }}
-              transition={{ delay: 5, ease: "easeOut", duration: 0 }}
+              transition={{ delay: 0, ease: "easeOut", duration: 0 }}
             >
               <a className="doclink" href="/drugs">
                 "Decriminalising drugs (POR)"
@@ -116,7 +116,7 @@ function App() {
               x: 0
             }}
             viewport={{ once: true }}
-            transition={{ delay: 1, ease: "easeOut", duration: 1 }}
+            transition={{ delay: 0, ease: "easeOut", duration: 1 }}
           /></a>
       </div>
 
@@ -128,7 +128,7 @@ function App() {
               initial={{ opacity: 0, }}
               whileInView={{ opacity: 1, }}
               viewport={{ once: true }}
-              transition={{ delay: 4, ease: "easeOut", duration: 0 }}
+              transition={{ delay: 0, ease: "easeOut", duration: 0 }}
             >
               <a className="doclink" href="/hazes">
                 "Ways to support Palestine"
@@ -192,7 +192,7 @@ function App() {
               initial={{ opacity: 0, }}
               whileInView={{ opacity: 1, }}
               viewport={{ once: true }}
-              transition={{ delay: 2, ease: "easeOut", duration: 0 }}
+              transition={{ delay: 0, ease: "easeOut", duration: 0 }}
             >
               <a className="doclink" href="/calligraphy">
                 "Margaret Shepherd won't let calligraphy die."
@@ -221,7 +221,7 @@ function App() {
               initial={{ opacity: 0, }}
               whileInView={{ opacity: 1, }}
               viewport={{ once: true }}
-              transition={{ delay: 3, ease: "easeOut", duration: 0 }}
+              transition={{ delay: 0, ease: "easeOut", duration: 0 }}
             >
               <a className="doclink" href="/icj">
                 "Netanyahu found guilty"
@@ -250,7 +250,7 @@ function App() {
               initial={{ opacity: 0, }}
               whileInView={{ opacity: 1, }}
               viewport={{ once: true }}
-              transition={{ delay: 2, ease: "easeOut", duration: 0 }}
+              transition={{ delay: 0, ease: "easeOut", duration: 0 }}
             >
               <a className="doclink" href="/bos">
                 "BOSLABS"
